@@ -13,7 +13,7 @@ const Condition = (props) => {
   `;
   return (
     <>
-      <Temp>20 C</Temp>
+      <Temp>{props.temp} °C</Temp>
       <State>Clouds</State>
     </>
   );
